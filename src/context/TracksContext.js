@@ -5,5 +5,5 @@ function noop() {}
 export const TracksContext = createContext({
   tracks: null,
   heading: null,
-  dispatch: noop,
+  updateData : noop,
 });
